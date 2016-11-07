@@ -12,7 +12,6 @@ namespace Exercise1_4_ImplicitConversion
         {
             Int16 i16 = 1;
             Int32 i32 = 1;
-            float fl = 1;
             double db = 1;
 
             // Преведение int32 -> int64

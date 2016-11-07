@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1-1", "Exercise1-1\Exercise1-1.csproj", "{52E8E88D-C2DB-42FF-8C85-6ED000756FD8}"
 EndProject
@@ -28,6 +28,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2-3-DecompressionDemo", "Exercise2-3-DecompressionDemo\Exercise2-3-DecompressionDemo.csproj", "{AFEE73A5-2C72-4150-A8CB-ECF1764B5BF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2-4-IsolatedStorageDemo", "Exercise2-4-IsolatedStorageDemo\Exercise2-4-IsolatedStorageDemo.csproj", "{888B6762-2CB7-4FC3-AB4B-EFCFB4D96BA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise4-1-BasicCollection", "Exercise4-1-BasicCollection\Exercise4-1-BasicCollection.csproj", "{D2173D32-954A-47E3-84DE-0D110F95F0AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise4-2-SequentialCollections", "Exercise4-2-SequentialCollections\Exercise4-2-SequentialCollections.csproj", "{61E0AA6D-B4B6-44E3-AE9B-B8AB630DD14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise4-3-DictionaryCollection", "Exercise4-3-DictionaryCollection\Exercise4-3-DictionaryCollection.csproj", "{D79D29E1-31F3-406A-A221-8A4447628D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise4-4-LookupCollection", "Exercise4-4-LookupCollection\Exercise4-4-LookupCollection.csproj", "{163A24A2-9DE8-4F19-A1B7-03E3CFFC49A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise4-5-GenericCollections", "Exercise4-5-GenericCollections\Exercise4-5-GenericCollections.csproj", "{715A596E-79FD-4A16-95A7-8257FEAAB12D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5-1-DeSerializePeople", "Exercise5-1-DeSerializePeople\Exercise5-1-DeSerializePeople.csproj", "{A7E07B9B-8447-4E6F-A0E0-8B5C6C91115B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5-2-XmlSerializePeople", "Exercise5-2-XmlSerializePeople\Exercise5-2-XmlSerializePeople.csproj", "{CC092666-8662-4D40-8603-E73C70E33755}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +101,34 @@ Global
 		{888B6762-2CB7-4FC3-AB4B-EFCFB4D96BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{888B6762-2CB7-4FC3-AB4B-EFCFB4D96BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{888B6762-2CB7-4FC3-AB4B-EFCFB4D96BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2173D32-954A-47E3-84DE-0D110F95F0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2173D32-954A-47E3-84DE-0D110F95F0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2173D32-954A-47E3-84DE-0D110F95F0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2173D32-954A-47E3-84DE-0D110F95F0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E0AA6D-B4B6-44E3-AE9B-B8AB630DD14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E0AA6D-B4B6-44E3-AE9B-B8AB630DD14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E0AA6D-B4B6-44E3-AE9B-B8AB630DD14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E0AA6D-B4B6-44E3-AE9B-B8AB630DD14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79D29E1-31F3-406A-A221-8A4447628D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79D29E1-31F3-406A-A221-8A4447628D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79D29E1-31F3-406A-A221-8A4447628D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79D29E1-31F3-406A-A221-8A4447628D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163A24A2-9DE8-4F19-A1B7-03E3CFFC49A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163A24A2-9DE8-4F19-A1B7-03E3CFFC49A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163A24A2-9DE8-4F19-A1B7-03E3CFFC49A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163A24A2-9DE8-4F19-A1B7-03E3CFFC49A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{715A596E-79FD-4A16-95A7-8257FEAAB12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{715A596E-79FD-4A16-95A7-8257FEAAB12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{715A596E-79FD-4A16-95A7-8257FEAAB12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{715A596E-79FD-4A16-95A7-8257FEAAB12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E07B9B-8447-4E6F-A0E0-8B5C6C91115B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E07B9B-8447-4E6F-A0E0-8B5C6C91115B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E07B9B-8447-4E6F-A0E0-8B5C6C91115B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E07B9B-8447-4E6F-A0E0-8B5C6C91115B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC092666-8662-4D40-8603-E73C70E33755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC092666-8662-4D40-8603-E73C70E33755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC092666-8662-4D40-8603-E73C70E33755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC092666-8662-4D40-8603-E73C70E33755}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
