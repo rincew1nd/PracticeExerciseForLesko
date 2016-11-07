@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5-1-DeSerializePeop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5-2-XmlSerializePeople", "Exercise5-2-XmlSerializePeople\Exercise5-2-XmlSerializePeople.csproj", "{CC092666-8662-4D40-8603-E73C70E33755}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kursach", "Kursach\Kursach.csproj", "{7DBBF18F-6F01-4D73-97AD-FA87E88D80AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{CC092666-8662-4D40-8603-E73C70E33755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC092666-8662-4D40-8603-E73C70E33755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC092666-8662-4D40-8603-E73C70E33755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBBF18F-6F01-4D73-97AD-FA87E88D80AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBBF18F-6F01-4D73-97AD-FA87E88D80AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBBF18F-6F01-4D73-97AD-FA87E88D80AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBBF18F-6F01-4D73-97AD-FA87E88D80AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
