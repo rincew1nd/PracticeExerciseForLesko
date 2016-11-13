@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2-3-DecompressionDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2-4-IsolatedStorageDemo", "Exercise2-4-IsolatedStorageDemo\Exercise2-4-IsolatedStorageDemo.csproj", "{888B6762-2CB7-4FC3-AB4B-EFCFB4D96BA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise3-1", "Exercise3-1\Exercise3-1.csproj", "{46A39162-F36E-46F5-9232-FA288BCD770A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise3-2-ChangeEncoding", "Exercise3-2-ChangeEncoding\Exercise3-2-ChangeEncoding.csproj", "{77D923B3-00B7-490B-B8D6-91B76D821177}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{888B6762-2CB7-4FC3-AB4B-EFCFB4D96BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{888B6762-2CB7-4FC3-AB4B-EFCFB4D96BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{888B6762-2CB7-4FC3-AB4B-EFCFB4D96BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A39162-F36E-46F5-9232-FA288BCD770A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A39162-F36E-46F5-9232-FA288BCD770A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A39162-F36E-46F5-9232-FA288BCD770A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A39162-F36E-46F5-9232-FA288BCD770A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D923B3-00B7-490B-B8D6-91B76D821177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D923B3-00B7-490B-B8D6-91B76D821177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D923B3-00B7-490B-B8D6-91B76D821177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D923B3-00B7-490B-B8D6-91B76D821177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
