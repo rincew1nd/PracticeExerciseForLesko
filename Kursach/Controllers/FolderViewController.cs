@@ -24,16 +24,25 @@ namespace Kursach.Controllers
             GetDrives();
         }
 
+        /// <summary>
+        /// Получить все доступные диски
+        /// </summary>
         public void GetDrives()
         {
             foreach (var driveInfo in DriveInfo.GetDrives())
             {
-                var node = new FolderNode(driveInfo.Name, driveInfo.RootDirectory.FullName);
-                UpdateNode(node, false);
-                _folderView.Nodes.Add(node);
+                if (driveInfo.IsReady)
+                {
+                    var node = new FolderNode(driveInfo.Name, driveInfo.RootDirectory.FullName);
+                    UpdateNode(node, false);
+                    _folderView.Nodes.Add(node);
+                }
             }
         }
 
+        /// <summary>
+        /// Обновить список папок вглубь на одну ступень для отображения значка "раскрытия" папки
+        /// </summary>
         public void UpdateNode(TreeNode nodeDummy, bool lookDeeper)
         {
             var node = nodeDummy as FolderNode;
